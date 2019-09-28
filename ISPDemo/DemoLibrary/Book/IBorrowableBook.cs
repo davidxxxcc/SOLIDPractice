@@ -1,7 +1,7 @@
 ﻿using System;
 namespace DemoLibrary
 {
-    public interface IBorrowableBook: IBorrowable, IBook
+    public interface IBorrowableBook : IBorrowable, IBook
     {
 
     }

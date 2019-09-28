@@ -33,7 +33,7 @@ namespace DemoLibrary
         {
             IsComplete = true;
 
-            _logger.Log($"Completed { ChoreName }");
+            _logger.Log($"Completed { ChoreName }"); 
 
             _messageSender.SendMessage(Owner, $"The chore { ChoreName } is complete.");
         }

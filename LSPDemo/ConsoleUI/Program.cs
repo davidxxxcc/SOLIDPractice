@@ -16,13 +16,15 @@ namespace ConsoleUI
             accountingVP.FirstName = "Emma";
             accountingVP.LastName = "Stone";
             accountingVP.CalculatePerHourRate(4);
+            Console.WriteLine($"{ accountingVP.FirstName }'s salary is ${ accountingVP.Salary }/hour.");
+
 
             BaseEmployee emp = new CEO();
 
             emp.FirstName = "Tim";
             emp.LastName = "Corey";
             //emp.AssignManager(accountingVP);
-            emp.CalculatePerHourRate(2);
+            emp.CalculatePerHourRate(4);
 
             Console.WriteLine($"{ emp.FirstName }'s salary is ${ emp.Salary }/hour.");
 

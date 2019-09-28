@@ -5,9 +5,6 @@ namespace DemoLibrary.DigitalMovie
 {
     public class DigitalMovie: IBorrowableDVD
     {
-        public DigitalMovie()
-        {
-        }
         public string LibraryId { get; set; }
 
         public string Title { get; set; }
